@@ -1,5 +1,4 @@
-
-from laberintof import laberintof
+from dibujo_laberinto import laberintof
 #esta funcion recorre el laberinto y devuelve una lista con los movimientos que hay que hacer para salir del laberinto
 #abajo explicacion de cómo funciona
 def resolver_laberinto():
@@ -33,4 +32,3 @@ def resolver_laberinto():
 #(3)Si tengo un borde a la dercha ,bajo y añado uno  las x
 #(4)Si no hay borde a la izquierda y hay un muro a la derecha el moviento es arriba y restar uno a las x
 #(5)Si hay un muro arriba hy no hay un muro a la derecha ni borde a la dercha, me desplazo hacia la derecha y añado uno a las y
-
